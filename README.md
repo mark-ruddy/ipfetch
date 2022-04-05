@@ -5,6 +5,8 @@ Credit to https://github.com/trakBan/ipfetch for the original idea.
 
 This Rust implementation aims to provide stability and extra features, if you are interested in using the underlying Rust IP API library see https://github.com/mark-ruddy/seeip.
 
+[![asciicast](https://asciinema.org/a/DJWnX7EL0MpBeL21yEUKlAqPo.svg)](https://asciinema.org/a/DJWnX7EL0MpBeL21yEUKlAqPo)
+
 # Installing
 ### Cargo
 Install the binary using cargo:
