@@ -1,10 +1,17 @@
 [package]
 name = "ipfetch"
-version = "0.1.0"
+version = "1.0.0"
 edition = "2021"
+description = "CLI Tool for Easy IP Information Fetching"
+homepage = "https://github.com/mark-ruddy/ipfetch"
+repository = "https://github.com/mark-ruddy/ipfetch"
+license-file = "LICENSE.txt"
+readme = "README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 clap = { version = "3.1.8", features = ["derive"] }
-seeip="2.0.0"
+reqwest = { version = "0.11", features = ["blocking"] }
+tabled = "0.6.0"
+seeip = "3.0.0"
