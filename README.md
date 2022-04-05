@@ -9,7 +9,7 @@ Asciinema example: https://asciinema.org/a/DJWnX7EL0MpBeL21yEUKlAqPo
 
 [![ipfetch.png](https://i.postimg.cc/ry9QkWJ8/ipfetch.png)](https://postimg.cc/Z0CrPW2g)
 
-# Installing
+## Installing
 ### Cargo
 Install the binary using cargo:
 `cargo install ipfetch`
@@ -22,7 +22,7 @@ cd ipfetch && cargo build --release
 sudo mv target/release/ipfetch /usr/local/bin
 ```
 
-# Examples
+## Examples
 Run `ipfetch --help` to see available flags.  
 
 Get info on your own IP:
@@ -55,5 +55,5 @@ Combine the flags to produce a report on your IPv6 and others in one command:
 ipfetch --my-ipv6 --ip 8.8.8.8 -ip 208.67.222.222 --output ip-info-data
 ```
 
-# Contributions
+## Contributions
 Any and all contributions are appreciated - completely new features, bug fixes etc. Ensure your code is formatted with `rustfmt`.  
