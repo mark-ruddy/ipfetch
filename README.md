@@ -1,7 +1,5 @@
 # ipfetch
-CLI Tool for easy IP information fetching.  
-
-Credit to https://github.com/trakBan/ipfetch for the original idea.  
+CLI Tool for easy IP information fetching, inspired by https://github.com/trakBan/ipfetch.
 
 This Rust implementation aims to provide stability and extra features, if you are interested in using the underlying Rust IP API library see https://github.com/mark-ruddy/seeip.
 
