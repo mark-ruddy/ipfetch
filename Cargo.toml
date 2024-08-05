@@ -1,6 +1,6 @@
 [package]
 name = "ipfetch"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2021"
 description = "CLI Tool for Easy IP Information Fetching"
 homepage = "https://github.com/mark-ruddy/ipfetch"
