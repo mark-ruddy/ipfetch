@@ -687,9 +687,9 @@ dependencies = [
 
 [[package]]
 name = "seeip"
-version = "3.0.0"
+version = "3.0.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a9db515445383a0a28dfd33cbf38237b784460095fa456921e6462f19be4a641"
+checksum = "a8a62ded0a16c05e145a4ed00759ded6da1e7ec68c96db282d35f8c8f95b0a11"
 dependencies = [
  "reqwest",
  "serde",
